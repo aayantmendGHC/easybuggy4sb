@@ -1,4 +1,4 @@
-FROM tomcat:8.5.84-jdk8-corretto-al2
+FROM tomcat:8.5.100-jdk8-corretto-al2
 COPY server.xml /usr/local/tomcat/conf/
 COPY index.jsp /usr/local/tomcat/webapps/attacker_app/
 COPY brute_force_attack.sh /usr/local/tomcat/
